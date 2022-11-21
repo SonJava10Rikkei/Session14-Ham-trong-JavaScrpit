@@ -31,10 +31,20 @@
         ];
 
         function check(x) {
-            for (var i = 0; i <= bar.length
+            for (var i = 0; i <= bar.length; i++) {
+                if (x == bar[i]) {
+                    return cgv[i];
+
+                } else {
+                    console.log("khong tim thay ngoi sao nao la " + x);
+                }
+            }
 
 
         }
+        let a = check(prompt("nhap ten ngoi sao"));
+        let b = a;
+        console.log(a);
 
 
     </script>
